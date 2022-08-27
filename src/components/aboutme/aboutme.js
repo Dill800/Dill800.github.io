@@ -9,7 +9,7 @@ const name = ( props ) => {
     return(
         <Fragment>
 
-            <h1 className='title'>About Me</h1>
+            <h1 className='title'>About Med</h1>
 
             <Container fluid>
 
