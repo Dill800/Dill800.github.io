@@ -12,7 +12,7 @@ import Chatbot from './components/chatbot/chatbot'
 
 const App = () => {
 
-  const api = process.env.API
+  const api = process.env.BACKEND
   const [heartRate, setHeartRate] = useState(null)
   const [sleep, setSleep] = useState(null)
   const [steps, setSteps] = useState(null)
