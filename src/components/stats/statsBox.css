@@ -1,0 +1,15 @@
+.stats-box-container {
+    display: flex;
+    flex-direction: column;
+    color: #DADADA;
+    padding: 5px;
+    align-items: center;
+    font-size: calc(12px + 1vw);
+}
+
+img {
+    width: calc(30px + 3vw);
+    height: auto;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+.landing-page-web {
+    height: 100vh;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #DADADA;
+}
+
+.landing-page-mobile {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #DADADA;
+}
+
+.name-mobile {
+    font-size: 12vw;
+    font-family: 'Handlee', sans-serif;
+    font-weight: bold;
+}
+
+.subtitle-mobile {
+
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Handlee', sans-serif;
+}
+
+.name {
+    font-family: 'Handlee', sans-serif;
+    font-size: calc(20px + 3vw);
+}
+
+.subtitle {
+    font-family: 'Handlee', sans-serif;
+    font-size: calc(12px + 1.5vw);
+}
+
+@media only screen and (max-width: 480px) {
+    .landing-page-web {
+        display: none;
+    }
+}
+@media (min-width: 481px) {
+    .landing-page-mobile {
+        display: none;
+    }
+}

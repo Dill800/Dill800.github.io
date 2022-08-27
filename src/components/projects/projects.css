@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=BioRhyme');
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.image {
+    border: 1px solid#AAAAAA
+}
+
+.title {
+    font-size: 60px;
+    color: #DADADA;
+    margin: 10px 0px 20px 0px;
+    font-family: 'Handlee', sans-serif;
+}
+
+.program-name {
+    font-size: calc(24px + .5vw);
+    margin-top: -15px;
+    font-family: 'BioRhyme';
+}
+
+.program-content {
+    font-size: calc(14px + .5vw);
+    font-family: 'BioRhyme';
+    color: #DADADA
+}
+
+.card-animation{
+    transition-duration: .2s;
+    transform: scale(1, 1);
+    font-family: 'BioRhyme';
+}
+
+.card-animation:hover {
+    transition-duration: .2s;
+    transform: scale(1.025, 1.025);
+}
+
+a {
+    color: lightskyblue
+}
+
+a:hover {
+    color: lightskyblue
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .program-name {
+        font-size: 20px;
+    }
+    .program-content {
+        font-size: 14px;
+    }
+}

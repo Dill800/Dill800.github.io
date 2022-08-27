@@ -1,0 +1,13 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-items: center;
+}
+
+.contact-element {
+    transition-duration: .4s;
+}
+
+.contact-element:hover {
+    transform: rotate(15deg)
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.experience-container {
+    font-family: 'Raleway';
+}
+
+.experience-row {
+    margin: 20px 0px 20px 0px;
+}
+
+.space-between {
+    height: 40px;
+}
+
+.experience-img {
+    display: block;
+    height: auto;
+    width: 100%;
+    min-width: 180px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 5px solid #DADADA;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.experience-header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: left;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.experience-title {
+    margin-left: 0px;
+    font-size: calc(20px + 1vw);
+    color: #DADADA;
+    font-weight: bold;
+}
+
+.experience-subtitle {
+    font-size: calc(0px + 1.1vw);
+    color: orange;
+    justify-self: center;
+}
+
+
+.experience-desc {
+    color: #DADADA;
+    font-size: calc(12px + .8vw);
+}
+
+
+@media (max-width: 991px) {
+
+    .experience-header {
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+    }
+
+    .experience-img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .experience-title {
+        font-size: calc(17px + 1.5vw);
+    }
+    .experience-subtitle {
+        font-size: calc(10px + .8vw);
+    }
+
+    .space-between {
+        display: none;
+    }
+}
+

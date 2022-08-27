@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+.stats-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-items: center;
+}
+
+.stats-description {
+    text-align: center;
+    color: #DADADA;
+    font-size: calc(12px + .7vw);
+}
+
+h1 {
+    font-size: calc(35px + 1.1vw);
+    color: #DADADA;
+    font-family: 'Handlee', sans-serif;
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
