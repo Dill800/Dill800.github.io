@@ -5,7 +5,7 @@ import './landing.css'
 
 const name = ( props ) => {
 
-    let title = 'Forward-Deployed Engineer'
+    let title = 'FDSE'
 
     return(
         <Fragment>
