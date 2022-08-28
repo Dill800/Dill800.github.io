@@ -16,7 +16,7 @@ const Chatbot = ( props ) => {
         event.preventDefault()
         setLoading(true);
 
-        axios.get(`https://us-central1-portfolio-backend-360715.cloudfunctions.net/chatbot/ask?input=${sentence}`)
+        axios.get(`https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi/chatbot/ask?input=${sentence}`)
         .then(response => {
             console.log(response)
             setLoading(false);
