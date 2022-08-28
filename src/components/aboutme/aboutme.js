@@ -22,7 +22,7 @@ const name = ( props ) => {
                         <div className='bio-container'>
                             <p>Hello! I'm a University of Florida graduate with a bachelor's degree in <strong>Computer Science </strong>
                               and minors in <strong>Mathematics</strong> and <strong>Physics</strong>. 
-                             My passion for physics is just as strong for my passion for computer science - I love 
+                             My passion for physics is just as strong as my passion for computer science - I love 
                              <strong> learning about the natural world and solving problems</strong>.</p>
                              <br/>
                              <p>I am currently working as a <strong>Forward-Deployed Software Engineer</strong> in NYC.</p>

@@ -12,13 +12,18 @@ const Chatbot = ( props ) => {
     
 
     function submit(event) {
-        
+
         event.preventDefault()
         setLoading(true);
-        axios.get(`/chatbot?value=${sentence}`)
+
+        axios.get(`https://us-central1-portfolio-backend-360715.cloudfunctions.net/chatbot/ask?input=${sentence}`)
         .then(response => {
+            console.log(response)
             setLoading(false);
             setOutput(response.data)
+        })
+        .catch(err => {
+            console.log(err)
         })
 
     }
