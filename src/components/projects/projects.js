@@ -3,7 +3,7 @@ import {Card, Container, Row, Col} from 'react-bootstrap'
 import EulerFluid from "../../assets/eulerfluid.gif"
 import GNATS from "../../assets/gnats.gif"
 import Spotify from "../../assets/spotify.gif"
-import Burger from "../../assets/burger.gif"
+import Burger from "../../assets/fittrackplus.gif"
 
 import './projects.css'
 
@@ -47,11 +47,11 @@ const name = ( props ) => {
                 <Card className='card-animation my-4 text-white bg-dark border border-info'>
                 <Card.Img variant="top" src={Burger}/>
                     <Card.Body>
-                        <a target='_blank' href='https://github.com/Dill800/restaurant-selector'>
-                        <Card.Title className='text-center program-name'>Restaurant Finder</Card.Title>
+                        <a target='_blank' href='https://github.com/Dill800/FitTrackPlus'>
+                        <Card.Title className='text-center program-name'>FitTrack+</Card.Title>
                         </a>
                         <Card.Text className='program-content'>
-                        Selects a random restaurant near the user with the push of a button.
+                        iOS all-inclusive fitness app for bodybuilding, powerlifting, and nutritional needs.
                         </Card.Text>
                     </Card.Body>
                     </Card>

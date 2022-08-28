@@ -58,10 +58,9 @@ const App = () => {
       <hr/>
       <Stats heartRate={heartRate} sleep={sleep} steps={steps}/>
       <hr/>
-      <Experience/>
-      <hr/>
       <Projects/>
-      
+      <hr/>
+      <Experience/>
       <hr/>
       <Chatbot/>
       <hr/>
