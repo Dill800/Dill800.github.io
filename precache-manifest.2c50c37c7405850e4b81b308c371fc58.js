@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9282e7b0bacc77ecfe63da900d2e46fb",
+    "revision": "5627686544d2fe2bc556d8e23850d233",
     "url": "/index.html"
   },
   {
-    "revision": "f96fc1a4db506cef53a9",
+    "revision": "1b54f895aca2c14a44c8",
     "url": "/static/css/main.6a26a8aa.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.49768cd2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f96fc1a4db506cef53a9",
-    "url": "/static/js/main.feb5b55d.chunk.js"
+    "revision": "1b54f895aca2c14a44c8",
+    "url": "/static/js/main.c1f8eda5.chunk.js"
   },
   {
     "revision": "31fe52e0bb68f83722f1",
     "url": "/static/js/runtime-main.7094e3bb.js"
-  },
-  {
-    "revision": "840ab60e72367fc4746c8b41b9190262",
-    "url": "/static/media/burger.840ab60e.gif"
   },
   {
     "revision": "4ee0f31ede22b2ce7aabd0e2118ddfc2",
@@ -34,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "918b74ae0e5ecd522fb9315907925785",
     "url": "/static/media/eulerfluid.918b74ae.gif"
+  },
+  {
+    "revision": "4fae73757bc02573eb816bd2654257b0",
+    "url": "/static/media/fittrackplus.4fae7375.gif"
   },
   {
     "revision": "5f9f4b26923dae62d555f49778497c09",
