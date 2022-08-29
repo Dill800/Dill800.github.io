@@ -81,28 +81,7 @@ const name = ( props ) => {
                     </Col>
                 </Row>
                 <div className='space-between'/>
-                <Row className='experience-row'>
-                    <Col className = 'd-flex justify-content-center' xs={12} lg={3}>
-                        <img className='experience-img' src={UF}/>
-                    </Col>
-
-                    <Col xs={12} lg={9}>
-                        <div >
-
-                            <div className='experience-header'>
-                                <span className='experience-title'>Undergraduate Researcher</span>
-                                <span className='experience-subtitle'>University of Florida - GILM Lab | Sept 2019 - October 2020</span>
-                            </div>
-
-                    
-                            <div className='experience-desc'>
-                                <p>Apply physically-based multi-spectral algorithms to model the wavelength dependent behavior of complex materials.</p>
-                                <p>Use observations of the emission and absorption spectra of materials to analyze their nano-scale structures.</p>
-                                <p>Implement a material matching algorithm to identify different material compositions.</p>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
+                
                 
 
             </Container>

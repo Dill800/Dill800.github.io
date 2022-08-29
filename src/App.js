@@ -12,10 +12,12 @@ import Chatbot from './components/chatbot/chatbot'
 
 const App = () => {
 
-  const api = 'https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi'
+  //const api = 'https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi'
+  const api = 'http://localhost:5000/portfolio-backend-360715/us-central1/expressApi'
   const [heartRate, setHeartRate] = useState(null)
   const [sleep, setSleep] = useState(null)
   const [steps, setSteps] = useState(null)
+  const [notWearing, setNotWearing] = useState(null)
 
   useEffect(() => {
 
@@ -24,7 +26,7 @@ const App = () => {
       if(response.data.success === false) {
         console.log("False");
         console.log(response);
-        setSleep("?");
+        setSleep("X");
         return;
       }
       setSleep(response.data.value + " hrs")
@@ -33,7 +35,7 @@ const App = () => {
     axios.get(api+'/stats/steps')
     .then(response => {
       if(response.data.success === false) {
-        setSteps("?");
+        setSteps("X");
         return;
       }
       setSteps(response.data.value)
@@ -42,10 +44,12 @@ const App = () => {
     axios.get(api+'/stats/heartrate')
     .then(response => {
       if(response.data.success === false) {
-        setHeartRate("?");
+        setHeartRate("X");
+        setNotWearing(true);
         return;
       }
       setHeartRate(response.data.value + " BPM")
+      setNotWearing(response.data.notWearing)
     })
 
   }, [])
@@ -56,7 +60,7 @@ const App = () => {
       <Landing/>
       <AboutMe/>
       <hr/>
-      <Stats heartRate={heartRate} sleep={sleep} steps={steps}/>
+      <Stats notWearing={notWearing} heartRate={heartRate} sleep={sleep} steps={steps}/>
       <hr/>
       <Projects/>
       <hr/>
