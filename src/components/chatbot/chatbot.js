@@ -16,7 +16,10 @@ const Chatbot = ( props ) => {
         event.preventDefault()
         setLoading(true);
 
-        axios.get(`https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi/chatbot/ask?input=${sentence}`)
+        //const api = 'http://localhost:5000/portfolio-backend-360715/us-central1/expressApi'
+        const api = 'https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi'
+
+        axios.get(`${api}/chatbot/ask?input=${sentence}`)
         .then(response => {
             console.log(response)
             setLoading(false);
