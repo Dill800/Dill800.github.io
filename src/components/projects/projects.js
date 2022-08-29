@@ -24,7 +24,7 @@ const name = ( props ) => {
                         <Card.Title className='text-center program-name'>Euler Fluid Simulator</Card.Title>
                         </a>
                         <Card.Text className='program-content'>
-                        Fluid simulator based on the Navier-Stokes equation. Learned a lot about fluid mechanics while making this one.
+                        Fluid simulator based on the Navier-Stokes equation. Obeys conservation of mass. <a target='_blank' href='https://www.youtube.com/watch?v=xjv99EDNa2A'>View the demo</a>.
                         </Card.Text>
                     </Card.Body>
                     </Card>
@@ -38,7 +38,7 @@ const name = ( props ) => {
                         <Card.Title className='text-center program-name'>GNATS</Card.Title>
                         </a>
                         <Card.Text className='program-content'>
-                        Implemenation of a genetic algorithm. Inspired by CodeBullet's <a target='_blank' href='https://www.youtube.com/watch?v=VnwjxityDLQ'>youtube video</a>.
+                        Over time, gnats learn how to fly to a lantern. Implemenation of a genetic algorithm. <a target='_blank' href='https://vimeo.com/744305603'>View the demo</a>.
                         </Card.Text>
                     </Card.Body>
                     </Card>
@@ -51,7 +51,7 @@ const name = ( props ) => {
                         <Card.Title className='text-center program-name'>FitTrack+</Card.Title>
                         </a>
                         <Card.Text className='program-content'>
-                        iOS all-inclusive fitness app for bodybuilding, powerlifting, and nutritional needs.
+                        iOS all-inclusive fitness app for bodybuilding, powerlifting, and nutritional needs. <a target='_blank' href='https://vimeo.com/744275588'>View the demo</a>.
                         </Card.Text>
                     </Card.Body>
                     </Card>
