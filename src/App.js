@@ -12,8 +12,8 @@ import Chatbot from './components/chatbot/chatbot'
 
 const App = () => {
 
-  //const api = 'https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi'
-  const api = 'http://localhost:5000/portfolio-backend-360715/us-central1/expressApi'
+  const api = 'https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi'
+  //const api = 'http://localhost:5000/portfolio-backend-360715/us-central1/expressApi'
   const [heartRate, setHeartRate] = useState(null)
   const [sleep, setSleep] = useState(null)
   const [steps, setSteps] = useState(null)
