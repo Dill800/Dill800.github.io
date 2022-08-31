@@ -13,7 +13,7 @@ const name = ( props ) => {
     return(
         <Fragment>
         <h1>Biostats</h1>
-        <p className='stats-description'><i>Retrieves current daily metrics about me from my watch!</i></p>
+        <p className='stats-description'><i>Retrieves current daily metrics from my watch!</i></p>
         <div className='stats-container'>
             <StatsBox image={Sleep} value={props.sleep}/>
             <StatsBox image={Steps} value={props.steps}/>

@@ -38,7 +38,7 @@ const name = ( props ) => {
                         <Card.Title className='text-center program-name'>GNATS</Card.Title>
                         </a>
                         <Card.Text className='program-content'>
-                        Over time, gnats learn how to fly to a lantern. Implemenation of a genetic algorithm. <a target='_blank' href='https://vimeo.com/744305603'>View the demo</a>.
+                        Over time, gnats learn how to fly to a lantern. Implemenation of a genetic algorithm. <a target='_blank' href='https://youtu.be/FyCAa2g29H8'>View the demo</a>.
                         </Card.Text>
                     </Card.Body>
                     </Card>
