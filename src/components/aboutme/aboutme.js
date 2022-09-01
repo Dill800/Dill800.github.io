@@ -27,7 +27,7 @@ const name = ( props ) => {
                              <br/>
                              <p>I am currently working as a <strong>Forward Deployed Engineer</strong> at Palantir.</p>
                              <br/>
-                             <p>If you have any questions, feel free to ask! You can send me an email or use my chatbot down below.</p>
+                             <p>If you have any questions, feel free to ask! My contact information is linked down below.</p>
                         </div>
                     </Col>
                 </Row>

@@ -66,8 +66,8 @@ const App = () => {
       <hr/>
       <Experience/>
       <hr/>
-      <Chatbot/>
-      <hr/>
+      {/*<Chatbot/>
+      <hr/>*/}
       <Contact/>
     </div>
   );
