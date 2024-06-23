@@ -5,13 +5,13 @@ import './landing.css'
 
 const name = ( props ) => {
 
-    let title = 'Forward Deployed Engineer'
+    let title = 'Software Engineer'
 
     return(
         <Fragment>
             <Bounce top cascade>
             <div className='landing-page-web'>
-                <h1 className = 'name'>Hi, i'm Dillon McGovern.</h1>
+                <h1 className = 'name'>Hi, I'm Dillon McGovern.</h1>
                 <h2 className='subtitle'>[ <i>{title}</i> ]</h2>
             </div>
             <div className='landing-page-mobile'>

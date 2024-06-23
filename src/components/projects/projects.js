@@ -64,7 +64,7 @@ const name = ( props ) => {
                         <Card.Title className='text-center program-name'>Song Visualizer</Card.Title>
                         </a>
                         <Card.Text className='program-content'>
-                        Visualizes features of a currently-playing song on Spotify. Check it out <a target='_blank' href='https://spotify-music-visualizer.herokuapp.com/'>here</a>.
+                        Visualizes features of a currently playing song on Spotify. Check it out <a target='_blank' href='https://spotify-music-visualizer.herokuapp.com/'>here</a>.
                         </Card.Text>
                     </Card.Body>
                     </Card>

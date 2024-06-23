@@ -17,7 +17,7 @@ const Chatbot = ( props ) => {
         setLoading(true);
 
         //const api = 'http://localhost:5000/portfolio-backend-360715/us-central1/expressApi'
-        const api = 'https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi'
+        const api = 'https://us-central1-fir-test-908.cloudfunctions.net/expressApi'
 
         axios.get(`${api}/chatbot/ask?input=${sentence}`)
         .then(response => {

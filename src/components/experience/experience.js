@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import './experience.css'
 
 import HomeDepot from '../../assets/thedepot.png'
-import UF from '../../assets/uf.png'
+import Palantir from '../../assets/palantir_logo.png'
 import HomeDepot2 from '../../assets/thedepot2.png'
 import BAM from '../../assets/bam.jpg'
 
@@ -14,6 +14,25 @@ const name = ( props ) => {
             <h1>Experience</h1>
 
             <Container className='experience-container' fluid>
+            <Row className='experience-row'>
+                <Col className = 'd-flex justify-content-center' xs={12} lg={3}>
+                    <img className='experience-img' src={Palantir}/>
+                </Col>
+
+                <Col xs={12} lg={9}>
+                    <div >
+
+                        <div className='experience-header'>
+                            <span className='experience-title'>Forward Deployed Software Engineer</span>
+                            <span className='experience-subtitle'>Palantir Technologies | Sept 2022 - Present</span>
+                        </div>
+                        
+                        <div className='experience-desc'>
+                            <p>coming soon! 🙀</p>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
             <Row className='experience-row'>
                 <Col className = 'd-flex justify-content-center' xs={12} lg={3}>
                     <img className='experience-img' src={BAM}/>

@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 
-import Me from '../../assets/croppedMe.png'
+import Me from '../../assets/me.jpeg'
 
 import './aboutme.css'
 
@@ -20,14 +20,14 @@ const name = ( props ) => {
 
                     <Col className = 'd-flex justify-content-left' xs={12} md={7}>
                         <div className='bio-container'>
-                            <p>Hello! I'm a University of Florida graduate with a bachelor's degree in <strong>Computer Science </strong>
-                              and minors in <strong>Mathematics</strong> and <strong>Physics</strong>. 
+                            <p>Hello! I'm a University of Florida graduate with a bachelor's degree in <strong>computer science </strong>
+                              and minors in <strong>mathematics</strong> and <strong>physics</strong>. 
                              My passion for physics is just as strong as my passion for computer science - I love 
                              <strong> learning about the natural world and solving problems</strong>.</p>
                              <br/>
-                             <p>I am currently working as a <strong>Forward Deployed Engineer</strong> at Palantir.</p>
+                             <p>I am currently working as a <strong>Forward Deployed Software Engineer</strong> at Palantir.</p>
                              <br/>
-                             <p>If you have any questions, feel free to ask! My contact information is linked down below.</p>
+                             <p>If you have any questions, feel free to ask! My contact information is linked down below. You can also ask my chatbot.</p>
                         </div>
                     </Col>
                 </Row>

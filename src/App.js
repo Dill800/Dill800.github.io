@@ -12,7 +12,7 @@ import Chatbot from './components/chatbot/chatbot'
 
 const App = () => {
 
-  const api = 'https://us-central1-portfolio-backend-360715.cloudfunctions.net/expressApi'
+  const api = 'https://us-central1-fir-test-908.cloudfunctions.net/expressApi'
   //const api = 'http://localhost:5000/portfolio-backend-360715/us-central1/expressApi'
   const [heartRate, setHeartRate] = useState(null)
   const [sleep, setSleep] = useState(null)
@@ -44,7 +44,7 @@ const App = () => {
     axios.get(api+'/stats/heartrate')
     .then(response => {
       if(response.data.success === false) {
-        setHeartRate("X");
+        setHeartRate("0 BPM");
         setNotWearing(true);
         return;
       }
@@ -66,8 +66,8 @@ const App = () => {
       <hr/>
       <Experience/>
       <hr/>
-      {/*<Chatbot/>
-      <hr/>*/}
+      <Chatbot/>
+      <hr/>
       <Contact/>
     </div>
   );

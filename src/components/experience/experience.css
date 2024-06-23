@@ -42,7 +42,8 @@
 .experience-subtitle {
     font-size: calc(0px + 1.1vw);
     color: orange;
-    justify-self: center;
+    justify-self: right;
+    margin-right: 10%;
 }
 
 
@@ -69,6 +70,8 @@
     }
     .experience-subtitle {
         font-size: calc(10px + .8vw);
+        justify-self: center;
+        margin-right: 0px;
     }
 
     .space-between {
